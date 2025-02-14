@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main3.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 offset-md-4">
+                <div class="form-group">
+                    <input type="number" class="form-control" id="fnum" placeholder="First Number">
+                </div>
+                <div class="form-group">
+                    <input type="number" class="form-control" id="snum" placeholder="Second Number">
+                </div>
+                <div class="col-md-2">
+                    <div class="btn-group btn-group-justified" role="group">
+                        <input type="button" class="btn btn-primary" value="Add" onclick="add()">
+                        <input type="button" class="btn btn-secondary" value="Subtract" onclick="sub()">
+                        <input type="button" class="btn btn-success" value="Multiply" onclick="multi()">
+                        <input type="button" class="btn btn-danger" value="Division" onclick="div()">
+                    </div>
+                    <br>
+                    <div class="btn-group btn-group-justified" role="group">
+                        <input type="button" class="btn btn-info" value="Percentage" onclick="percentage()">
+                        <input type="button" class="btn btn-warning" value="Factorial" onclick="factorial()">
+                        <input type="button" class="btn btn-warning" value="Square" onclick="square()">
+                    </div>
+                    <div class="btn-group btn-group-justified" role="group">
+                        <input type="button" class="btn btn-warning" value="Qube" onclick="qube()">
+                        <input type="button" class="btn btn-warning" value="Aall Clear" onclick="clearDisplay()">
+                        <input type="button" class="btn btn-warning" value="X^-1" onclick="Inverse()">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
